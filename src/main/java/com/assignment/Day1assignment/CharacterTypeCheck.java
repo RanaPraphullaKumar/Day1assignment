@@ -12,8 +12,13 @@ public class CharacterTypeCheck {
 		if((ch == 'a' && ch=='z')||(ch=='A' && ch=='Z')||(ch >= 48 && ch <= 57)||(!(ch >= 48 && ch <= 57) && 
 			    !(ch >= 65 && ch <= 90) && 
 			    !(ch >= 97 && ch <= 122))) {
+			System.out.println("They are in Character,Alphabets or in Special Characters"+ch);
+		}
+		else {
 			System.out.println(ch);
 		}
 	}
 
 }
+
+
